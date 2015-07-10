@@ -1,0 +1,10 @@
+body{
+  /*Typography Declaration */
+color: #D1A823;
+  font-size: 1em;
+  font-family: "Open Sans" "Helvetica Neue", sans-serif;   
+  text-align: center;
+  background-color: #5B81D1;
+  font-weight:bold;
+ }
+
