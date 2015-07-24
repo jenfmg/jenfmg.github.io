@@ -20,13 +20,13 @@ img {
 	font-family:'Roboto Slab'; serif;
 	font-size:;
 	line-height:1.5em;
-	margin:2em 15em;
+	margin-left:27%;
+	margin-right:27%;
 }
 
 span {
 	font-variant:small-caps;
 	font-family:'Work Sans', sans-serif;
-	letter-spacing:;
 	font-size:40px;
 }
 
