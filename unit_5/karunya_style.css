@@ -70,7 +70,15 @@ footer {
 	margin-bottom:10px;
 }
 
-.art {
-max-width:25%;
+img {
+	display:inline-block;
+	margin:2px;
+	width:400px;
+	box-shadow:1px 1px 1px #888888;
 }
 
+h1 {
+	font-family:'Roboto Slab'; serif;
+	font-size:60px;
+	color:#5E0415;
+}
