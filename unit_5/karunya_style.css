@@ -10,13 +10,12 @@ color:#5E0415;
 font-family:'Work Sans', sans-serif;
 font-size:100px;
 top:-152px;
-left:40px;
+left:28px;
 text-shadow:0px .5px .5px #5E0415;
 text-align:center;
 }
 
 #wrapper {
-	background-color:yellow;
 	width:900px;
 	margin:auto;
 }
@@ -25,20 +24,21 @@ body {
 	text-align:center;
 }
 
-#statement {
-	color:#2B2E2E;
-	font-family:'Roboto Slab'; serif;
-	font-size:11px;
-	line-height:1.5em;
-		/*margin-left:28%;
-		margin-right:28%;*/
-}
-
 span {
 	font-variant:small-caps;
 	font-family:'Work Sans', sans-serif;
 	font-size:40px;
 	color:#5E0415;
+}
+
+#statement {
+	padding-top:80px;
+	color:#2B2E2E;
+	font-family:'Roboto Slab'; serif;
+	font-size:13px;
+	line-height:1.5em;
+	margin-left:17%;
+	margin-right:17%;
 }
 
 #about, #portfolio, #resume {
