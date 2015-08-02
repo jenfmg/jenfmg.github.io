@@ -76,6 +76,14 @@ footer {
 	margin-bottom:10px;
 }
 
+#navigation {
+	float:left;
+	width:20%;
+}
+
+.gallery {
+	margin-right:20%;
+}
 
 h1 {
 	font-family:'Roboto Slab'; serif;
@@ -83,17 +91,35 @@ h1 {
 	color:#5E0415;
 }
 
+li {
+	list-style-type:none;
+	text-align:left;
+	font-family:'Work Sans', sans-serif;
+	font-size:20px;
+	font-variant:small-caps;
+}
+
+#home, #about2, #portfolio2, #resume2 {
+	width:150px;
+	height:100px;
+	background-color:#5E0415;
+	margin:10px;
+	text-align:center;
+
+}
+
+
 .gallery img {
 	display:inline-block;
-	width:350px;
-    height:350px;
+	width:250px;
+    height:250px;
     margin:2px;
-    float:left;
+    float:right;
     padding-bottom:10px;
-	padding-left:5px;
 	padding-top:10px;
 }
 
 .wrapper {
-    float: left;
+    float:right;
 }
+
