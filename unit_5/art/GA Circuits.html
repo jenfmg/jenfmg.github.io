@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)https://circuits.generalassemb.ly/student/69/code_challenge/challenges/72 -->
+<html hola_ext_inject="disabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<script type="text/javascript" src="./GA Circuits_files/9a64f6181d"></script><script src="./GA Circuits_files/nr-632.min.js"></script><script type="text/javascript" async="" src="./GA Circuits_files/28ccf2baa8560461d85b7905e95017e7eaef5470.1.js"></script><script type="text/javascript" async="" src="./GA Circuits_files/i.js"></script><script async="" src="./GA Circuits_files/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"9a64f6181d","applicationID":"7202346","transactionName":"cFwNF0VaCAgESx0HWFdWPABfVAgIBFdVARhQWwIPW1AKAwRKHRdfXEQ=","queueTime":4,"applicationTime":493,"agent":"js-agent.newrelic.com/nr-632.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):(o[e]||(o[e]=[]),void o[e].push(n))}var r=e("ee").create(),o={};n.exports=t,t.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=(e(2),window),f=u.document,s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+<meta content="width=device-width,initial-scale=1.0" name="viewport">
+
+<meta content="IE=Edge,chrome=1" http-equiv="X-UI-Compatible">
+<title>GA Circuits</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://ga-circuits-production-herokuapp-com.global.ssl.fastly.net/assets/favicon-362b6546f2d0abc57e58ce80e6265e77ee1a53dd77bcf01e7e28b7a93667ec6b.ico">
+
+<link rel="stylesheet" media="all" href="https://ga-circuits-production-herokuapp-com.global.ssl.fastly.net/assets/application-9a323a6d7daa15908e83cd278b267ca15485943607505ce679aec76994eef16c.css">
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="iDfrQwbOKwQJ5YFhUqTFavGqVuFwFpZOFSEVog29QJQdYCjafEG53MiA0FucD/JqB3Lx2N4QcPpHJ97uwwV2Fg==">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  
+  ga('create', 'UA-18018358-24', 'auto');
+  var circuits_course = 'Web Design';
+  if (circuits_course != '') {
+    ga('set', 'dimension1', circuits_course);
+  }
+  ga('send', 'pageview');
+  
+  ga('create', 'UA-18018358-1', 'auto', {'name': 'ga-ly-tracker'});
+  ga('ga-ly-tracker.send', 'pageview');
+</script>
+
+<script>
+  var _kmq = _kmq || [];
+  var _kmk = _kmk || '28ccf2baa8560461d85b7905e95017e7eaef5470';
+  function _kms(u){
+    setTimeout(function(){
+      var d = document, f = d.getElementsByTagName('script')[0],
+      s = d.createElement('script');
+      s.type = 'text/javascript'; s.async = true; s.src = u;
+      f.parentNode.insertBefore(s, f);
+    }, 1);
+  }
+  _kms('//i.kissmetrics.com/i.js');
+  _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+</script>
+
+<link rel="stylesheet" media="all" href="https://ga-circuits-production-herokuapp-com.global.ssl.fastly.net/assets/code_challenge-546d271d29b9873b59768dccd644863835835cd1a6d183ef51b36d63a8eda187.css">
+
+<meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small"><style></style></head>
+<body>
+
+<header class="navigation-header" id="nav-primary">
+<ul class="nav-primary"><li class="nav-primary-item activate-button js-activate-mobile-nav centered">
+<a href="https://circuits.generalassemb.ly/"><img src="./GA Circuits_files/menu-icon-9f76e6629813ddb8f03d1654df53efb181983e9ced4103eff02b98f0a9810cb1.svg" alt="Menu icon 9f76e6629813ddb8f03d1654df53efb181983e9ced4103eff02b98f0a9810cb1">
+</a></li><li class="nav-primary-item logo-container">
+<a class="nav-logo" href="https://circuits.generalassemb.ly/"><span class="icon-cog">Web Design Circuit</span>
+</a></li><li class="nav-primary-item unit-count centered">
+<a href="https://circuits.generalassemb.ly/student/69/units/67?cohort=69">Unit 4</a>
+</li><li class="nav-primary-item unit-activity activity-menu-trigger">
+<a class="js-unit-dropdown" href="https://circuits.generalassemb.ly/student/69/code_challenge/challenges/72#"><span class="activity-count">
+5 of 11
+</span>
+<span class="activity-title">
+Code Challenge: Fonts
+</span>
+</a><nav>
+<ul class="activity-menu">
+<li class="units-listing-item">
+<a class="listing-lessons-link " href="https://circuits.generalassemb.ly/student/69/pages/379"><span class="dropdown-icon icon-activity-completed icon-video"></span>
+Video: Typography Fundamentals
+</a></li>
+<li class="units-listing-item">
+<a class="listing-lessons-link " href="https://circuits.generalassemb.ly/student/69/pages/380"><span class="dropdown-icon icon-activity-completed icon-video"></span>
+Video: Typography and Readability
+</a></li>
+<li class="units-listing-item">
+<a class="listing-lessons-link " href="https://circuits.generalassemb.ly/student/69/code_challenge/challenges/71"><span class="dropdown-icon icon-activity-completed icon-code-challenge"></span>
+Code Challenge: Line Height
+</a></li>
+<li class="units-listing-item">
+<a class="listing-lessons-link " href="https://circuits.generalassemb.ly/student/69/pages/381"><span class="dropdown-icon icon-activity-completed icon-video"></span>
+Video: Typographic Pairings: Best Practices
+</a></li>
+<li class="units-listing-item">
+<a class="listing-lessons-link units-listing-current" href="./GA Circuits_files/GA Circuits.html"><span class="dropdown-icon icon-activity-completed icon-code-challenge"></span>
+Code Challenge: Fonts
+</a></li>
+<li class="units-listing-item">
+<a class="listing-lessons-link " href="https://circuits.generalassemb.ly/student/69/pages/382"><span class="dropdown-icon icon-activity-completed icon-video"></span>
+Video: Advanced Typographic Considerations
+</a></li>
+<li class="units-listing-item">
+<a class="listing-lessons-link " href="https://circuits.generalassemb.ly/student/69/code_challenge/challenges/73"><span class="dropdown-icon icon-activity-completed icon-code-challenge"></span>
+Code Challenge: Using Web Fonts
+</a></li>
+<li class="units-listing-item">
+<a class="listing-lessons-link " href="https://circuits.generalassemb.ly/student/69/pages/383"><span class="dropdown-icon icon-activity-completed icon-video"></span>
+Video: Color — Typography and Beyond
+</a></li>
+<li class="units-listing-item">
+<a class="listing-lessons-link " href="https://circuits.generalassemb.ly/student/69/pages/384"><span class="dropdown-icon icon-activity-completed icon-wrapup"></span>
+Review Guide: Web Design Basics
+</a></li>
+<li class="units-listing-item">
+<a class="listing-lessons-link " href="https://circuits.generalassemb.ly/student/69/quizzes/122"><span class="dropdown-icon icon-activity-completed icon-quiz"></span>
+Quiz: Web Design Basics
+</a></li>
+<li class="unit-listing-item">
+<a class="listing-lessons-link " href="https://circuits.generalassemb.ly/student/69/assignments/57"><span class="dropdown-icon icon-activity-completed"></span>
+Creating and Coding Your Business Page
+</a></li>
+</ul>
+</nav>
+
+</li>
+</ul>
+<ul class="nav-secondary">
+<li class="nav-secondary-item">
+<a href="https://circuits.generalassemb.ly/student/69/lectures">Lectures</a>
+</li><li class="nav-secondary-item">
+<a class="js-resources-tracking" href="https://circuits.generalassemb.ly/resources">Resources</a>
+</li>
+<li class="nav-secondary-item">
+<nav class="nav-account">
+<a class="nav-avatar" href="https://circuits.generalassemb.ly/"><img src="./GA Circuits_files/medium_jen.jpg" alt="Medium jen"></a>
+<ul class="nav-account-dropdown">
+<li>
+<a href="https://circuits.generalassemb.ly/me">My Profile</a>
+</li>
+<li>
+<a href="https://circuits.generalassemb.ly/me/edit">Edit my Profile</a>
+</li>
+<li>
+<a href="https://accounts.generalassemb.ly/account">My Account</a>
+</li>
+<li>
+<a class="sign-out" href="https://circuits.generalassemb.ly/sign_out">Sign Out</a>
+</li>
+
+</ul>
+</nav>
+</li>
+</ul>
+
+</header>
+<ul class="mobile-nav-account-dropdown nav-account-dropdown">
+<li>
+<a href="https://circuits.generalassemb.ly/">Web Design Circuit</a>
+</li><li></li>
+<a href="https://circuits.generalassemb.ly/student/69/lectures">Lectures</a><li class="nav-secondary-item">
+<a class="js-resources-tracking" href="https://circuits.generalassemb.ly/resources">Resources</a>
+</li>
+</ul>
+
+
+<main>
+<div class="code-challenge">
+<div class="screen-size-warning js-screen-size-warning" style="display: none;">
+<p class="error-header">
+Wide load.
+</p>
+<p>
+This activity works better in a larger browser.
+</p>
+<a class="button button-small button-circuits" href="https://circuits.generalassemb.ly/student/69/pages/382">Skip for now</a>
+<span class="close-icon js-close-icon">
+✕
+</span>
+</div>
+<div class="code-challenge-ui" id="code-challenge-left" style="height: 559px;">
+<div class="code-challenge-slides">
+<ul class="code-slides" id="code-slides">
+<li class="is-hidden" data-step-id="2544" data-step-index="0" data-step-position="1">
+<img src="./GA Circuits_files/4_fonts.001.jpg" alt="4 fonts.001">
+</li>
+<li class="is-hidden" data-step-id="2545" data-step-index="1" data-step-position="2">
+<img src="./GA Circuits_files/4_fonts.002.jpg" alt="4 fonts.002">
+</li>
+<li class="is-hidden" data-step-id="2546" data-step-index="2" data-step-position="3">
+<img src="./GA Circuits_files/4_fonts.003.jpg" alt="4 fonts.003">
+</li>
+<li class="is-hidden" data-step-id="2547" data-step-index="3" data-step-position="4">
+<img src="./GA Circuits_files/4_fonts.004.jpg" alt="4 fonts.004">
+</li>
+<li class="is-hidden" data-step-id="2548" data-step-index="4" data-step-position="5">
+<img src="./GA Circuits_files/4_fonts.005.jpg" alt="4 fonts.005">
+</li>
+<li class="is-hidden" data-step-id="2549" data-step-index="5" data-step-position="6">
+<img src="./GA Circuits_files/4_fonts.006.jpg" alt="4 fonts.006">
+</li>
+<li class="is-hidden" data-step-id="2550" data-step-index="6" data-step-position="7">
+<img src="./GA Circuits_files/4_fonts.007.jpg" alt="4 fonts.007">
+</li>
+<li class="is-hidden" data-step-id="2551" data-step-index="7" data-step-position="8">
+<img src="./GA Circuits_files/4_fonts.008.jpg" alt="4 fonts.008">
+</li>
+<li class="is-hidden" data-step-id="2552" data-step-index="8" data-step-position="9">
+<img src="./GA Circuits_files/4_fonts.009.jpg" alt="4 fonts.009">
+</li>
+<li class="is-hidden" data-step-id="2553" data-step-index="9" data-step-position="10">
+<img src="./GA Circuits_files/4_fonts.010.jpg" alt="4 fonts.010">
+</li>
+<li class="is-hidden" data-step-id="2554" data-step-index="10" data-step-position="11">
+<img src="./GA Circuits_files/4_fonts.011.jpg" alt="4 fonts.011">
+</li>
+<li class="is-hidden" data-step-id="2555" data-step-index="11" data-step-position="12">
+<img src="./GA Circuits_files/4_fonts.012.jpg" alt="4 fonts.012">
+</li>
+<li class="" data-step-id="2556" data-step-index="12" data-step-position="13">
+<img src="./GA Circuits_files/4_fonts.013.jpg" alt="4 fonts.013">
+</li>
+<li class="is-hidden challenge-end-slide" data-step-index="13" data-step-position="14">
+<h2>Great job!</h2>
+<p>Well done, you've completed the challenge!</p>
+<a class="next-arrow-button" href="https://circuits.generalassemb.ly/student/69/pages/382">→</a>
+</li>
+</ul>
+</div>
+<div class="code-challenge-editors" id="code-editors">
+<div class="code-challenge-navigation" id="challenge-nav">
+<p class="code-slides-num">
+<span id="code-slides-num">13</span>
+/
+14
+</p>
+<a class="code-slide-prev is-active" href="https://circuits.generalassemb.ly/student/69/code_challenge/challenges/72#" id="code-slides-prev">Previous slide</a>
+<a class="code-slide-next is-active" href="https://circuits.generalassemb.ly/student/69/code_challenge/challenges/72#" id="code-slides-next">Next slide</a>
+</div>
+<a class="challenge-launch-tip js-track-challenge-step is-hidden" data-action="clicked" data-cohort-id="69" data-interactable-type="CodeChallenge::Step" href="https://circuits.generalassemb.ly/student/69/code_challenge/challenges/72#" id="challenge-launch-tip">Give me help</a>
+<div class="code-challenge-tip is-hidden" id="challenge-tip">
+<a class="code-challenge-tip-close" href="https://circuits.generalassemb.ly/student/69/code_challenge/challenges/72#" id="challenge-tip-close"></a>
+<div class="challenge-tip" id="challenge-tip-container">
+<h2 class="code-challenge-tip-header">Answer</h2>
+<div class="code-challenge-tip-content" id="challenge-tip-content"></div>
+</div>
+</div>
+<ul class="code-challenge-editor-nav" id="challenge-editors-nav">
+<li>
+<a class="tab-nav" href="https://circuits.generalassemb.ly/student/69/code_challenge/challenges/72#html-editor-container">HTML</a>
+</li>
+<li>
+<a class="tab-nav is-active" href="https://circuits.generalassemb.ly/student/69/code_challenge/challenges/72#css-editor-container">CSS</a>
+</li>
+</ul>
+<div class="code-editor-container tab is-hidden" id="html-editor-container">
+<textarea id="html-editor" style="display: none;">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+	&lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+   &lt;h1&gt;Alice in Wonderland&lt;/h1&gt;
+	&lt;p&gt;&lt;strong&gt;Alice was beginning&lt;/strong&gt; to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations?'&lt;/p&gt;
+	&lt;p&gt;So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.&lt;/p&gt;
+	&lt;p&gt;There was nothing so &lt;em&gt;very&lt;/em&gt; remarkable in that; nor did Alice think it so &lt;em&gt;very&lt;/em&gt; much out of the way to hear the Rabbit say to itself, 'Oh dear! Oh dear! I shall be late!' (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually &lt;em&gt;took a watch out of its waistcoat-pocket&lt;/em&gt;, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.&lt;/p&gt;
+	&lt;p&gt;In another moment down went Alice after it, never once considering how in the world she was to get out again.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</textarea><div class="CodeMirror cm-s-pastel-on-dark" style="height: 186px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 39px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true" style="display: block; bottom: 0px; min-width: 18px;"><div style="min-width: 1px; height: 332px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true" style="display: block; right: 0px; left: 35px; min-height: 18px;"><div style="height: 100%; min-height: 1px; width: 6484px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 35px; margin-bottom: 0px; border-right-width: 30px; min-width: 6484.4609375px; min-height: 332px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>15</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 21.6000061035156px;">&nbsp;</div></div><div class="CodeMirror-code"><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">1</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-meta">&lt;!DOCTYPE html&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">2</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">html</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">3</div></div><pre class=""><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">4</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">head</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">5</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">link</span> <span class="cm-attribute">rel</span>=<span class="cm-string">"stylesheet"</span> <span class="cm-attribute">href</span>=<span class="cm-string">"style.css"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">6</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">head</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">7</div></div><pre class=""><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">8</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">body</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">9</div></div><pre class=""><span style="padding-right: 0.1px;">   <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">h1</span><span class="cm-tag cm-bracket">&gt;</span>Alice in Wonderland<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">h1</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">10</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;&lt;</span><span class="cm-tag">strong</span><span class="cm-tag cm-bracket">&gt;</span>Alice was beginning<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">strong</span><span class="cm-tag cm-bracket">&gt;</span> to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversations?'<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">11</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">12</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>There was nothing so <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">em</span><span class="cm-tag cm-bracket">&gt;</span>very<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">em</span><span class="cm-tag cm-bracket">&gt;</span> remarkable in that; nor did Alice think it so <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">em</span><span class="cm-tag cm-bracket">&gt;</span>very<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">em</span><span class="cm-tag cm-bracket">&gt;</span> much out of the way to hear the Rabbit say to itself, 'Oh dear! Oh dear! I shall be late!' (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually <span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">em</span><span class="cm-tag cm-bracket">&gt;</span>took a watch out of its waistcoat-pocket<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">em</span><span class="cm-tag cm-bracket">&gt;</span>, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">13</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>In another moment down went Alice after it, never once considering how in the world she was to get out again.<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">14</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">body</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -31px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">15</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">html</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px; top: 332px;"></div><div class="CodeMirror-gutters" style="height: 362px; left: 4px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div></div>
+</div>
+<div class="code-editor-container tab" id="css-editor-container">
+<textarea id="css-editor" style="display: none;">p {
+	font-family: palatino, georgia, serif;
+  	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+strong {
+	font-variant: small-caps;
+}</textarea><div class="CodeMirror cm-s-pastel-on-dark CodeMirror-focused" style="height: 186px;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 90.4px; left: 39px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true" style="min-width: 18px; display: block; bottom: 0px;"><div style="min-width: 1px; height: 202px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true" style="min-height: 18px;"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 35px; min-width: 359.864471435547px; margin-bottom: 0px; border-right-width: 30px; min-height: 202px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre>x</pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"><div class="CodeMirror-selected" style="position: absolute; left: 4px; top: 65px; width: 557px; height: 21px;"></div><div class="CodeMirror-selected" style="position: absolute; left: 4px; top: 86px; width: 0px; height: 22px;"></div></div><div class="CodeMirror-cursors" style=""></div><div class="CodeMirror-code"><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -35px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">1</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag">p</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -35px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">2</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-property">font-family</span>: <span class="cm-variable">palatino</span>, <span class="cm-variable">georgia</span>, <span class="cm-atom">serif</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -35px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">3</div></div><pre class=""><span style="padding-right: 0.1px;">  <span class="cm-tab" role="presentation" cm-text="	">  </span><span class="cm-property">font-size</span>: <span class="cm-number">18px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -35px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">4</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-property">line-height</span>: <span class="cm-number">1.5em</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -35px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">5</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-property">margin</span>: <span class="cm-number">2em</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -35px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">6</div></div><pre class=""><span style="padding-right: 0.1px;">}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -35px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">7</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tag">strong</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -35px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">8</div></div><pre class=""><span style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-property">font-variant</span>: <span class="cm-atom">small-caps</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -35px; width: 35px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 3px; width: 21px;">9</div></div><pre class=""><span style="padding-right: 0.1px;">}</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px; top: 202px;"></div><div class="CodeMirror-gutters" style="height: 232px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div></div>
+</div>
+</div>
+</div>
+<div class="code-challenge-render">
+<iframe id="render-area" style="height: 559px;"></iframe>
+</div>
+</div>
+
+</main>
+<script src="./GA Circuits_files/application-1715534f288a9ee5432dfebd3c9d33bd723fe3658c9652a4e8ff3f3d48d7f994.js"></script>
+<script src="./GA Circuits_files/helpers-7e97200a9bba251337f2112fbdec23815a9930460f1060ec3615dd20e14d6287.js"></script>
+<script src="./GA Circuits_files/code_challenge-2518012ff734ed25e170fe2a0c745c76e9b93f6364cc41b3d39878b4f2a80f38.js"></script>
+<script src="./GA Circuits_files/tabbed_interface-e2586ef61b7dc8682b6606b2da94b22303f18a4787b7d8f5f1ae07b40ce25472.js"></script>
+<script src="./GA Circuits_files/interaction-5537d41cc063cecc723549f0a0a74c2ba2485846cec7dbe6559ac88579b8eb25.js"></script>
+<script>
+  (function() {
+    $(function() {
+      var json_steps, steps;
+      json_steps = ["{\"id\":2544,\"title\":\"Title Page\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/938/4_fonts.001.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/938/tiny_4_fonts.001.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/938/medium_4_fonts.001.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/938/large_4_fonts.001.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"\",\"position\":1,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:36.951-04:00\",\"updated_at\":\"2015-05-07T13:08:36.951-04:00\",\"tip\":\"\",\"storage_id\":938}", "{\"id\":2545,\"title\":\"Mission\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/939/4_fonts.002.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/939/tiny_4_fonts.002.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/939/medium_4_fonts.002.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/939/large_4_fonts.002.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"\",\"position\":2,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:36.958-04:00\",\"updated_at\":\"2015-05-07T13:08:36.958-04:00\",\"tip\":\"\",\"storage_id\":939}", "{\"id\":2546,\"title\":\"Add Typographic Style\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/940/4_fonts.003.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/940/tiny_4_fonts.003.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/940/medium_4_fonts.003.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/940/large_4_fonts.003.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"\",\"position\":3,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:36.967-04:00\",\"updated_at\":\"2015-05-07T13:08:36.967-04:00\",\"tip\":\"\",\"storage_id\":940}", "{\"id\":2547,\"title\":\"code: font-family\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/941/4_fonts.004.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/941/tiny_4_fonts.004.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/941/medium_4_fonts.004.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/941/large_4_fonts.004.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"\",\"position\":4,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:36.975-04:00\",\"updated_at\":\"2015-05-07T13:08:36.975-04:00\",\"tip\":\"\",\"storage_id\":941}", "{\"id\":2548,\"title\":\"Checkpoint #1\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/942/4_fonts.005.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/942/tiny_4_fonts.005.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/942/medium_4_fonts.005.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/942/large_4_fonts.005.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"/p\\\\s*{\\\\s*font-family:\\\\s*sans-serif;[\\\\sa-z0-9-;:.]*}/i\",\"position\":5,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:36.981-04:00\",\"updated_at\":\"2015-05-07T13:08:36.981-04:00\",\"tip\":\"Serif fonts lack the little \\\"hooks\\\" called serifs that some typefaces feature. Generally, you see serif fonts frequently on paper, and sans-serif fonts on screens. The logos for Gap and Google are set in serif fonts; Facebook and twitter are sans-serif.\\r\\n\\r\\np {\\r\\n\\tfont-family: sans-serif;\\r\\n\\tfont-size: 18px;\\r\\n\\tline-height: 1.5em;\\r\\n\\tmargin: 2em;\\r\\n}\",\"storage_id\":942}", "{\"id\":2549,\"title\":\"Serifs in \\u003cp\\u003e fonts\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/943/4_fonts.006.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/943/tiny_4_fonts.006.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/943/medium_4_fonts.006.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/943/large_4_fonts.006.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"\",\"position\":6,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:36.988-04:00\",\"updated_at\":\"2015-05-07T13:08:36.988-04:00\",\"tip\":\"\",\"storage_id\":943}", "{\"id\":2550,\"title\":\"Checkpoint #2\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/944/4_fonts.007.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/944/tiny_4_fonts.007.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/944/medium_4_fonts.007.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/944/large_4_fonts.007.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"/p\\\\s*{\\\\s*font-family:[\\\\sa-z]*serif;[\\\\sa-z0-9-;:.]*}/i\",\"position\":7,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:36.995-04:00\",\"updated_at\":\"2015-05-07T13:08:36.995-04:00\",\"tip\":\"We want this too like like it's printed on paper in a book. So it should actually be serif.\\r\\n\\r\\np {\\r\\n\\tfont-family: serif;\\r\\n\\tfont-size: 18px;\\r\\n\\tline-height: 1.5em;\\r\\n\\tmargin: 2em;\\r\\n}\",\"storage_id\":944}", "{\"id\":2551,\"title\":\"code: georgia font\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/945/4_fonts.008.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/945/tiny_4_fonts.008.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/945/medium_4_fonts.008.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/945/large_4_fonts.008.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"\",\"position\":8,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:37.001-04:00\",\"updated_at\":\"2015-05-07T13:08:37.001-04:00\",\"tip\":\"\",\"storage_id\":945}", "{\"id\":2552,\"title\":\"Checkpoint #3\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/946/4_fonts.009.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/946/tiny_4_fonts.009.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/946/medium_4_fonts.009.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/946/large_4_fonts.009.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"/p\\\\s*{\\\\s*font-family:[\\\\sa-z,]*georgia,\\\\s*serif;[\\\\sa-z0-9-;:.]*}/i\",\"position\":9,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:37.007-04:00\",\"updated_at\":\"2015-05-07T13:08:37.007-04:00\",\"tip\":\"slide09TIP\\r\\nGeorgia is a nice looking bookish serif font. This declaration says: hey browser! Try to find Georgia. But, if it's not on this machine, our second choice is your default serif.\\r\\n\\r\\np {\\r\\n\\tfont-family: georgia, serif;\\r\\n\\tfont-size: 18px;\\r\\n\\tline-height: 1.5em;\\r\\n\\tmargin: 2em;\\r\\n}\",\"storage_id\":946}", "{\"id\":2553,\"title\":\"Adding another font\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/947/4_fonts.010.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/947/tiny_4_fonts.010.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/947/medium_4_fonts.010.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/947/large_4_fonts.010.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"\",\"position\":10,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:37.013-04:00\",\"updated_at\":\"2015-05-07T13:08:37.013-04:00\",\"tip\":\"\",\"storage_id\":947}", "{\"id\":2554,\"title\":\"Checkpoint #4\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/948/4_fonts.011.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/948/tiny_4_fonts.011.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/948/medium_4_fonts.011.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/948/large_4_fonts.011.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"/p\\\\s*{\\\\s*font-family:\\\\s*palatino,\\\\s*georgia,\\\\s*serif;[\\\\sa-z0-9-;:.]*}/i\",\"position\":11,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:37.020-04:00\",\"updated_at\":\"2015-05-07T13:08:37.020-04:00\",\"tip\":\"Palatino is a very elegant, old-fashioned serif font. This declaration says: hey browser! Try to display this paragraph in Palatino. But, if it's not on this machine, our second choice is Georgia. If you can't find that, our third choice is your default serif.\\r\\n\\r\\np {\\r\\n\\tfont-family: palatino, georgia, serif;\\r\\n\\tfont-size: 18px;\\r\\n\\tline-height: 1.5em;\\r\\n\\tmargin: 2em;\\r\\n}\",\"storage_id\":948}", "{\"id\":2555,\"title\":\"Did the font change?\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/949/4_fonts.012.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/949/tiny_4_fonts.012.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/949/medium_4_fonts.012.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/949/large_4_fonts.012.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"\",\"position\":12,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:37.027-04:00\",\"updated_at\":\"2015-05-07T13:08:37.027-04:00\",\"tip\":\"\",\"storage_id\":949}", "{\"id\":2556,\"title\":\"Final Slide\",\"image\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/950/4_fonts.013.jpg\",\"tiny\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/950/tiny_4_fonts.013.jpg\"},\"medium\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/950/medium_4_fonts.013.jpg\"},\"large\":{\"url\":\"https://ga-sprites.s3.amazonaws.com/uploads/production/code_challenge/step/image/950/large_4_fonts.013.jpg\"}},\"html_solution_regex\":\"\",\"css_solution_regex\":\"\",\"position\":13,\"challenge_id\":72,\"created_at\":\"2015-05-07T13:08:37.034-04:00\",\"updated_at\":\"2015-05-07T13:08:37.034-04:00\",\"tip\":\"\",\"storage_id\":950}"];
+      steps = json_steps.map(function(step) {
+        step = $.parseJSON(step);
+        return new CodeChallenge.Step(step.id, step.html_solution_regex, step.css_solution_regex, step.tip);
+      });
+      window.codeChallenge = new CodeChallenge(steps, 2556);
+      new TabbedInterface({
+        container: $('#code-editors'),
+        onChange: function(currentTab) {
+          return currentTab.find('.CodeMirror')[0].CodeMirror.refresh();
+        }
+      });
+      $('.js-track-challenge-step').on('click', function(event) {
+        var interaction;
+        interaction = Interaction.sanitize_keys($(this).data());
+        interaction['interactable_id'] = window.codeChallenge.stepManager.currentStep()['id'];
+        new Interaction(interaction);
+        return GA.Circuits.Analytics.trackEvent('Clicked Code Challenge Help Button', {
+          "course_id": 3,
+          "course_title": "Web Design",
+          "cohort_id": 69,
+          "cohort_name": "7/8 Ocean",
+          "cohort_start_date": "2015-07-08",
+          "cohort_mentor": "Circuits Mentors ",
+          "cohort_producer": "Laura Jo Hess",
+          "curriculum_id": 8,
+          "curriculum_title": "Web Design Circuit - Version 2.2",
+          "challenge_id": 72
+        });
+      });
+      return $(".js-close-icon").on("click", function() {
+        return $(".js-screen-size-warning").hide();
+      });
+    });
+  
+  }).call(this);
+</script>
+<script>
+  (function() {
+    $(function() {
+      return $('.sign-out').on('click', function() {
+        return GA.Circuits.Analytics.clearLoginData();
+      });
+    });
+  
+  }).call(this);
+</script>
+<script>
+  (function() {
+    $(function() {
+      $('.js-activate-mobile-nav').on('click', function(e) {
+        e.preventDefault();
+        return $('body').toggleClass('is-mobile-nav-open');
+      });
+      return $('.js-unit-dropdown').on('click', function(e) {
+        e.preventDefault();
+        return $('header.navigation-header').toggleClass('has-unit-dropdown');
+      });
+    });
+  
+  }).call(this);
+</script>
+
+
+
+<script type="text/javascript">(function () {
+        return window.SIG_EXT = {};
+      })()</script></body></html>
