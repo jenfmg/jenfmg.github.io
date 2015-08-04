@@ -61,7 +61,6 @@ a:hover {
 	background-color:#DCDCDC;
 	float:left;
 	width:25%;
-
 }
 
 h1 {
@@ -80,12 +79,14 @@ p {
 	padding:12px;
 	line-height: 1.3em;
 	text-align:left;
-	margin:1em;	
-	font-family: 'Source Sans Pro', sans-serif;
+	margin:1.5em;	
+	font-family: 'Gudea', sans-serif;
 }
+
 
 h2 {
 	padding-top:15px;
+	padding-bottom:5px;
 	color:#fff;
 	font-family: 'Playfair Display', serif;
 	font-size:18px;
@@ -96,6 +97,7 @@ h2 {
 
 h3, h4 {
 	color:#fff;
+	padding-bottom:5px;
 	font-family: 'Playfair Display', serif;
 	font-size:18px;
 	text-align:center;
@@ -118,8 +120,9 @@ hr {
 	color:#540700
 }
 
+
 /*
 #gallery {
 	margin-right:20%;
-}*/
+}
 
