@@ -59,8 +59,8 @@ a:hover {
 	width:350px;
 	height:800px;
 	background-color:#DCDCDC;
-	float:left;
 	width:25%;
+	position:fixed;
 }
 
 h1 {
@@ -69,8 +69,7 @@ h1 {
 	font-family: 'Playfair Display', serif;
 	font-size:20px;
 	text-align:center;
-	padding-top:100px;
-	padding-bottom:25px;
+	padding: 25px 0;
 	color:#540700
 }
 
@@ -118,6 +117,10 @@ hr {
 	text-align:center; 
 	margin: 0 auto;
 	color:#540700
+}
+
+hr:first-of-type {
+	margin:100px auto 0;
 }
 
 
