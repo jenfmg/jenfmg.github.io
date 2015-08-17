@@ -154,8 +154,7 @@ figcaption {
     bottom:5px;
     right:0;
     background-color:rgba(0,0,0,.15);
-    opacity:.8;
-}
+*/}
 
 figure:hover figcaption {
 	display:block;
@@ -166,9 +165,10 @@ figure:hover figcaption {
 	padding:20% 5%;
 	background-color:#540700;
 	font-family: 'Gudea', sans-serif;
-	font-size:2em;
+	font-size:1.2em;
 	text-align:center;
 	top:0;
+	opacity:.85;
 }
 
 figure img {
