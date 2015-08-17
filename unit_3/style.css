@@ -69,7 +69,7 @@ h1 {
 	font-size:20px;
 	text-align:center;
 	padding: 5px 0;
-	color:#540700
+	color:#540700;
 }
 
 p {
@@ -89,7 +89,7 @@ h2 {
 	font-family: 'Playfair Display', serif;
 	font-size:18px;
 	text-align:center;
-	color:#540700
+	color:#540700;
 }
 
 
@@ -99,7 +99,7 @@ h3, h4 {
 	font-family: 'Playfair Display', serif;
 	font-size:18px;
 	text-align:center;
-	color:#540700
+	color:#540700;
 }
 
 h5 {
@@ -108,14 +108,14 @@ h5 {
 	font-family: 'Playfair Display', serif;
 	font-size:18px;
 	text-align:center;
-	color:#540700
+	color:#540700;
 }
 
 hr {
 	width:100px;
 	text-align:center; 
 	margin: 0 auto;
-	color:#540700
+	color:#540700;
 }
 
 hr:first-of-type {
@@ -140,7 +140,7 @@ figure {
     display:inline-block;
     float:left;
     width:33.33%;
-    height:400px;
+   /* height:358px;*/
   }
 
  figure a{
@@ -154,26 +154,26 @@ figcaption {
     bottom:5px;
     right:0;
     background-color:rgba(0,0,0,.15);
-}
-
-figure:hover img {
-    opacity: .7;
+    opacity:.8;
 }
 
 figure:hover figcaption {
 	display:block;
 	position:absolute;
 	z-index:1;
-	color:red;
+	color:#000;
 	max-width:90%;
 	padding:20% 5%;
-	background-color:black;
+	background-color:#540700;
+	font-family: 'Gudea', sans-serif;
+	font-size:2em;
+	text-align:center;
 	top:0;
 }
 
 figure img {
 	width:100%;
-	display: block;
+	display:block;
 }
 
 #gallery {
