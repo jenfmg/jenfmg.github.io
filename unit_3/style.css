@@ -62,6 +62,15 @@ ul {
 	position:fixed;
 }
 
+#navbar a {
+	text-decoration:none;
+	color:#540700;
+}
+
+#navbar a:hover {
+	text-decoration:underline; 
+}
+
 h1 {
 	color:#fff;
 	margin:10px;
@@ -154,14 +163,14 @@ figcaption {
     bottom:5px;
     right:0;
     background-color:rgba(0,0,0,.15);
-*/}
+}
 
 figure:hover figcaption {
 	display:block;
 	position:absolute;
 	z-index:1;
 	color:#000;
-	max-width:90%;
+	max-width:100%;
 	padding:20% 5%;
 	background-color:#540700;
 	font-family:'Gudea', sans-serif;
