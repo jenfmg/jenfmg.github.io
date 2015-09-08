@@ -73,7 +73,8 @@ ul {
 
 h1 {
 	color:#fff;
-	margin:10px;
+	margin-top:5%;
+	margin-bottom:5%;
 	font-family:'Playfair Display', serif;
 	font-size:1.2em;
 	text-align:center;
@@ -86,8 +87,9 @@ p {
 	padding:10px;
 	line-height:1.3em;
 	text-align:left;
-	margin:1.5em;	
+	margin:2em;	
 	font-family:'Gudea', sans-serif;
+	text-align:justify;
 }
 
 
@@ -128,7 +130,7 @@ hr {
 }
 
 hr:first-of-type {
-	margin:100px auto 0;
+	margin:35% auto 0;
 }
 
 .wrapper {
@@ -163,8 +165,7 @@ figcaption {
     bottom:0;
     right:0;
     background-color:rgba(0,0,0,.15);
-    font-size:1.3em;
-
+    font-size:1.2em;
 }
 
 figure:hover figcaption {
@@ -175,15 +176,17 @@ figure:hover figcaption {
 	max-width:90%;
 	padding:20% 5%;
 	background-color:#540700;
-	font-family:'Gudea', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	text-align:center;
 	top:0;
 	opacity:.85;
+	margin:10%;
 }
 
 .pub {
 	font-weight:bold;
-	font-size:1.3em;
+	font-size:1.2em;
+	font-family:'Playfair Display', serif;
 }
 
 figure img {
@@ -194,10 +197,6 @@ figure img {
 #gallery {
 	margin-left:25%;
 	width:75%;
-}
-
-background2 {
-	background-color:black;
 }
 
 @media (max-width: 320px) {
