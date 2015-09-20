@@ -304,6 +304,18 @@ figure:hover figcaption {
 	}
 }
 
+@media screen and (max-width:1250px){
+	hr:first-of-type {
+		margin:32% auto 0;
+}
+}
+
+@media screen and (max-width:1207px){
+	hr:first-of-type {
+		margin:30% auto 0;
+}
+}
+
 @media screen and (max-width:1100px){
 
 	figure {
@@ -406,6 +418,42 @@ figure:hover figcaption {
 	}
 }
 
+@media screen and (max-width: 655px){
+hr:first-of-type {
+	margin:29% auto 0;
+}
+}
+
+@media screen and (max-width:650px){
+h1 {
+font-size:1.1em;
+}
+
+p {
+font-size:.9em;
+}
+
+
+h2 {
+font-size:1.1em;
+}
+
+
+h3, h4 {
+font-size:1.1em;
+}
+
+h5 {
+font-size:1.1em;
+}
+
+hr:first-of-type {
+margin:40% auto 0;
+}
+
+
+}
+
 @media screen and (max-width: 616px){
 
 	figcaption {
@@ -420,6 +468,33 @@ figure:hover figcaption {
 	.pub {
 		font-size:1em;
 	}
+}
+
+@media screen and (max-width:573px){
+	h1 {
+	font-size:.9em;
+}
+
+	p {
+	font-size:.8em;
+}
+
+
+	h2 {
+	font-size:.9em;
+}
+
+
+	h3, h4 {
+	font-size:.9em;
+}
+
+	h5 {
+	font-size:.9em;
+}
+
+	hr:first-of-type {
+	margin:47% auto 0;
 }
 
 @media screen and (max-width: 551px){
@@ -438,3 +513,32 @@ figure:hover figcaption {
 	}
 }
 
+@media screen and (max-width:466px){
+h1 {
+font-size:.8em;
+line-height:1.5em;
+}
+
+p {
+font-size:.7em;
+}
+
+
+h2 {
+font-size:.8em;
+}
+
+
+h3, h4 {
+font-size:.8em;
+}
+
+h5 {
+font-size:.8em;
+}
+
+hr:first-of-type {
+margin:60% auto 0;
+}
+
+1
