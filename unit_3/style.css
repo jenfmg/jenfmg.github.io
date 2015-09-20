@@ -218,7 +218,7 @@ figure:hover figcaption {
 	font-size:1.4em;
 	text-align:center;
 	color:#F4F4F4;
-	margin-top:18%;
+	margin-top:17%;
 	margin-left:17%;
 	margin-right:17%;
 	margin-bottom:5%;
@@ -336,6 +336,11 @@ figure:hover figcaption {
 	}
 }
 
+@media screen and (max-width:1095px){
+	#solid h1 {
+		margin-top:20%;
+	}
+
 @media screen and (max-width:990px){
 
 	figure {
@@ -356,12 +361,23 @@ figure:hover figcaption {
 	}
 }
 
-@media screen and (max-width:800px){
-	ul {
-		font-size:1.5em;
-		width:90%;
+@media screen and (max-width:985px){
+	#solid h1 {
+		margin-top:22%;
 	}
-}
+
+
+@media screen and (max-width:895px){
+	#solid h1 {
+		margin-top:22%%;
+	}
+
+
+@media screen and (max-width:845px){
+	#solid h1 {
+		margin-top:24%;
+	}
+
 
 @media screen and (max-width: 833px){
 
@@ -402,6 +418,18 @@ figure:hover figcaption {
 	}
 }
 
+@media screen and (max-width:800px){
+	ul {
+		font-size:1.5em;
+		width:90%;
+	}
+}
+
+@media screen and (max-width:790px){
+	#solid h1 {
+		margin-top:27%;
+	}
+
 @media screen and (max-width: 740px){
 
 	figcaption {
@@ -419,40 +447,53 @@ figure:hover figcaption {
 }
 
 @media screen and (max-width: 655px){
-hr:first-of-type {
-	margin:29% auto 0;
+	
+	hr:first-of-type {
+		margin:29% auto 0;
 }
 }
 
 @media screen and (max-width:650px){
-h1 {
-font-size:1.1em;
+	h1 {
+		font-size:1.1em;
+	}
+
+	p {
+		font-size:.9em;
+	}
+
+
+	h2 {
+		font-size:1.1em;
+	}
+
+
+	h3, h4 {
+		font-size:1.1em;
+	}
+
+	h5 {
+		font-size:1.1em;
+	}
+
+	hr:first-of-type {
+		margin:40% auto 0;
+}
 }
 
-p {
-font-size:.9em;
-}
+@media screen and (max-width:630px){
+	#solid h1 {
+		font-size:1.1em;
+	}
 
+	#solid h2 {
+		font-size:1em;
+	}
 
-h2 {
-font-size:1.1em;
-}
-
-
-h3, h4 {
-font-size:1.1em;
-}
-
-h5 {
-font-size:1.1em;
-}
-
-hr:first-of-type {
-margin:40% auto 0;
-}
-
-
-}
+	#solid h3 {
+		font-size:1.1em;
+	}
+		}
 
 @media screen and (max-width: 616px){
 
@@ -469,6 +510,25 @@ margin:40% auto 0;
 		font-size:1em;
 	}
 }
+
+@media screen and (max-width:596px){
+	#solid h1 {
+		margin-top:29%;
+	}
+
+@media screen and (max-width:580px){
+	#solid h1 {
+		font-size:1em;
+	}
+
+	#solid h2 {
+		font-size:.9em;
+	}
+
+	#solid h3 {
+		font-size:1em;
+	}
+	}
 
 @media screen and (max-width:573px){
 	h1 {
@@ -497,6 +557,21 @@ margin:40% auto 0;
 	margin:47% auto 0;
 }
 
+
+@media screen and (max-width:570px){
+	#solid h1 {
+		font-size:.85em;
+	}
+
+	#solid h2 {
+		font-size:.85em;
+	}
+
+	#solid h3 {
+		font-size:.85em;
+	}
+	}
+
 @media screen and (max-width: 551px){
 
 	figcaption {
@@ -514,31 +589,31 @@ margin:40% auto 0;
 }
 
 @media screen and (max-width:466px){
-h1 {
-font-size:.8em;
-line-height:1.5em;
-}
+	h1 {
+		font-size:.8em;
+		line-height:1.5em;
+	}
 
-p {
-font-size:.7em;
-}
-
-
-h2 {
-font-size:.8em;
-}
+	p {
+		font-size:.7em;
+	}
 
 
-h3, h4 {
-font-size:.8em;
-}
+	h2 {
+		font-size:.8em;
+	}
 
-h5 {
-font-size:.8em;
-}
 
-hr:first-of-type {
-margin:60% auto 0;
-}
+	h3, h4 {
+		font-size:.8em;
+	}
+
+	h5 {
+		font-size:.8em;
+	}
+
+	hr:first-of-type {
+		margin:60% auto 0;
+	}
 
 1
