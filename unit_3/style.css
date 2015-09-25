@@ -117,14 +117,14 @@ figcaption {
     bottom:0;
     right:0;
     background-color:rgba(0,0,0,.15);
-    font-size:1.2em;
+    font-size:1.1em;
 }
 
 figure:hover figcaption {
 	display:block;
 	position:absolute;
 	z-index:1;
-	color:#DCDCDC;
+	color:#B5B5B5;
 	max-width:90%;
 	padding:20% 5%;
 	background-color:#540700;
