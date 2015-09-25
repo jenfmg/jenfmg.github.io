@@ -220,7 +220,7 @@ figure:hover figcaption {
 	border-style:solid;
 	border-width:30px;
 	min-height:740px;
-	min-width:600px;
+	min-width:740px;
 	border-color:#F4F4F4;
 }
 
@@ -229,7 +229,7 @@ figure:hover figcaption {
 	font-size:1.4em;
 	text-align:center;
 	color:#F4F4F4;
-	margin-top:17%;
+	margin-top:14%;
 	margin-left:17%;
 	margin-right:17%;
 	margin-bottom:5%;
@@ -302,10 +302,18 @@ figure:hover figcaption {
 	margin:0;
 	position:static;
 	text-align:center;
+	line-height:1em;
 }
 
-#nav2 li {
+#nav2 a {
+	text-decoration:none;
 	color:white;
+	font-size:.8em;
+	color:#63A689;
+}
+
+#nav2 a:hover {
+	text-decoration:underline; 
 }
 
 #menu-toggle:checked + #nav2{
