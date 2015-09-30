@@ -45,6 +45,7 @@ h1 {
 
 p {
 	color:#4F4F4F; 
+	font-size:;
 	padding:10px;
 	line-height:1.3em;
 	text-align:left;
@@ -90,7 +91,7 @@ hr {
 }
 
 hr:first-of-type {
-	margin:34% auto 0;
+	margin:30% auto 0;
 }
 
 
@@ -297,23 +298,25 @@ figure:hover figcaption {
 }
 
 #nav2 {
-	display:block;
+	display:none;
 	width:100%;
 	margin:0;
 	position:static;
 	text-align:center;
-	line-height:1em;
+	line-height:.8em;
+	text-transform:none;
 }
 
 #nav2 a {
 	text-decoration:none;
 	color:white;
-	font-size:.8em;
+	font-size:.65em;
 	color:#63A689;
 }
 
 #nav2 a:hover {
-	text-decoration:underline; 
+/*	text-decoration:underline; 
+*/	background:#fff;
 }
 
 #menu-toggle:checked + #nav2{
