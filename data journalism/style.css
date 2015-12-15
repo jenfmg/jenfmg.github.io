@@ -4,11 +4,6 @@ body {
 	margin-bottom:60px;
 }
 
-#tableau {
-	margin-left:250px;
-}
-
-
 h1 {
 	color:#fff;
 	margin-top:4%;
@@ -30,18 +25,81 @@ h2 {
 }
 
 
+h3 {
+	color:#fff;
+	margin-top:2%;
+	font-family:'Playfair Display', serif;
+	font-size:1em;
+	color:#540700;
+	letter-spacing:.01em;
+}
+
+#figcaption2 {
+	font-family:'Playfair Display', serif;
+	color:#63A689;
+	font-size:.7em;
+	margin-left:982px;
+}
+
+#figcaption2 a {
+	font-family:'Playfair Display', serif;
+	color:#63A689;
+	text-decoration:none;
+}
+
+#figcaption2 a:hover {
+	text-decoration:underline; 
+}
+
+#figcaption {
+	font-family:'Playfair Display', serif;
+	color:#63A689;
+	font-size:.7em;
+	text-align:right;
+}
+
+#figcaption a {
+	font-family:'Playfair Display', serif;
+	color:#63A689;
+	text-align:right;
+	text-decoration:none;
+}
+
+#figcaption a:hover {
+	text-decoration:underline; 
+}
+
+#chart {
+/*	float:right;
+*/	margin-top:3%;
+	margin-right:5%;
+	margin-left:55%;
+	padding-left:10%;
+	height:20px;
+}
+
+#tableau {
+	margin-left:210px;
+}
+
+#hungary_p {
+	color:#4F4F4F; 
+	font-size:1em;
+	line-height:1.3em;
+	text-align:left;
+	font-family:'Gudea', sans-serif;
+	margin-right:45%;
+	margin-left:5%;
+}
+
 p {
 	color:#4F4F4F; 
 	font-size:1em;
-	padding:20px;
 	line-height:1.3em;
 	text-align:left;
 	font-family:'Gudea', sans-serif;
 	margin-left:300px;
 	margin-right:300px;
-}
-
-#map {
 }
 
 #solid {
@@ -88,7 +146,7 @@ p {
 
 #solid h3 {
 	font-family:'Playfair Display', serif;
-	font-size:1.3em;
+	font-size:1.1em;
 	text-align:center;
 	color:#F4F4F4;
 	margin-left:17%;
@@ -112,16 +170,16 @@ p {
 	margin:0;
 }
 
-#solid h4 {
+#solid h4{
 	padding-bottom:5px;
 	font-family:'Playfair Display', serif;
-	font-size:1.3em;
+	font-size:1em;
 	text-align:center;
 	color:#540700;
 	letter-spacing:.09em;
 }
 
-#solid h4 a {
+#solid h4 a{
 	text-decoration:none;
 	color:#63A689;
 	font-size:.9em;
@@ -131,6 +189,48 @@ p {
 /*	text-decoration:underline; 
 */	color:#540700;
 }
+
+.footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 1em;
+    margin-top: 5em;
+    text-align:center;
+    color: #5E0415;
+	font-family:'Playfair Display', serif;
+	font-size:.9em;
+}
+
+.footer a{
+	text-decoration:none;
+	color:#5E0415;
+	font-size:.9em;
+}
+
+
+/*@media screen and (max-width:580px){
+
+	#hungary_p {
+	color:#4F4F4F; 
+	font-size:1em;
+	line-height:1.3em;
+	text-align:left;
+	font-family:'Gudea', sans-serif;
+	margin-right:45%;
+	margin-left:5%;
+}
+
+p {
+	color:#4F4F4F; 
+	font-size:1em;
+	line-height:1.3em;
+	text-align:left;
+	font-family:'Gudea', sans-serif;
+	margin-left:300px;
+	margin-right:300px;
+}
+}*/
 
 }
 
